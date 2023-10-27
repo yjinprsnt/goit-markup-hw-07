@@ -598,8 +598,7 @@ img {
 }
 
 .about-title,
-.team-title,
-.clients-title {
+.team-title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -729,24 +728,36 @@ img {
 /* ====== /Team section ====== */
 
 /* ====== Clients section ====== */
-.clients-list {
+.clients__title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: var(--secondary-txt-cl);
+}
+
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.clients-item {
+.clients__item {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 30px;
 }
 
-.clients-item:last-child {
+.clients__item:last-child {
   margin-right: 0;
 }
 
-.clients-item-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -762,13 +773,13 @@ img {
     border-color var(--duration) var(--timing-function);
 }
 
-.clients-item-link:hover,
-.clients-item-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-cl);
   border-color: var(--accent-cl);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 /* ====== /Clients section ====== */
