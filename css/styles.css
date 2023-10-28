@@ -249,7 +249,7 @@ img {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -261,7 +261,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-.feedback-btn {
+.hero__feedback-btn {
   display: inline-flex;
   min-width: 216px;
   min-height: 50px;
@@ -285,8 +285,8 @@ img {
   transition: background-color var(--duration) var(--timing-function);
 }
 
-.feedback-btn:hover,
-.feedback-btn:focus {
+.hero__feedback-btn:hover,
+.hero__feedback-btn:focus {
   background-color: #188ce8;
 }
 
