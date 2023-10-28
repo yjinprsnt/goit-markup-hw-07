@@ -597,8 +597,7 @@ img {
   padding-top: 0;
 }
 
-.about-title,
-.team-title {
+.about__title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -610,18 +609,19 @@ img {
   color: var(--secondary-txt-cl);
 }
 
-.about-list {
+.about__list {
   display: flex;
 }
 
-.about-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-right: 30px;
 }
+
 .about-content {
   position: relative;
 }
 
-.about-deck {
+.about-content__deck {
   position: absolute;
   bottom: 0;
   left: 0;
