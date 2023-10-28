@@ -331,106 +331,109 @@
     </main>
     <!-- Подвал сайта-->
     <footer class="foot">
-      <div class="container foot-container">
-        <div class="foot-address-content">
-          <a class="logo-foot logo link" href="./index.html" lang="en">
-            Web<span class="logo-dark">Studio</span>
+      <div class="container foot__container">
+        <div class="foot-address-block">
+          <a class="foot__logo logo link" href="./index.html" lang="en">
+            Web<span class="logo--dark">Studio</span>
           </a>
-          <address class="foot-address-block">
-            <ul class="foot-address-list list">
-              <li class="foot-address-item">
+          <!-- Блок адреси -->
+          <address class="foot-address">
+            <ul class="foot-address__list list">
+              <li class="foot-address__item">
                 <a
-                  class="foot-contact-address-link link"
+                  class="foot-address__address-link link"
                   href="https://maps.app.goo.gl/mDqCFLNQbTsLXvxj6"
                   target="_blank"
                   rel="noopener noreferrer"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="foot-address-item">
+              <li class="foot-address__item">
                 <a
-                  class="foot-contact-mail-link link"
+                  class="foot-address__mail-link link"
                   href="mailto:info@-itemdevstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="foot-address-item">
-                <a class="foot-contact-tel-link link" href="tel:+380961111111"
+              <li class="foot-address__item">
+                <a class="foot-address__tel-link link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="foot-social-content">
-          <p class="foot-social-deck">ПРІЄДНУЙТЕСЬ</p>
-          <ul class="foot-social-list list">
-            <li class="foot-social-item item">
+
+        <div class="foot-soc-block">
+          <p class="foot-soc-block__deck">ПРІЄДНУЙТЕСЬ</p>
+          <ul class="foot-soc-block__list list">
+            <li class="foot-soc-block__item">
               <a
-                class="foot-social-link link"
+                class="foot-soc-block__link link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Instagram"
               >
-                <svg class="foot-social-icon" width="20" height="20">
+                <svg class="foot-soc-block__icon" width="20" height="20">
                   <use href="./images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-social-item item">
+            <li class="foot-soc-block__item">
               <a
-                class="foot-social-link link"
+                class="foot-soc-block__link link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Twitter"
               >
-                <svg class="foot-social-icon" width="20" height="20">
+                <svg class="foot-soc-block__icon" width="20" height="20">
                   <use href="./images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-social-item item">
+            <li class="foot-soc-block__item">
               <a
-                class="foot-social-link link"
+                class="foot-soc-block__link link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Facebook"
               >
-                <svg class="foot-social-icon" width="20" height="20">
+                <svg class="foot-soc-block__icon" width="20" height="20">
                   <use href="./images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-social-item item">
+            <li class="foot-soc-block__item">
               <a
-                class="foot-social-link link"
+                class="foot-soc-block__link link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Linkedin"
               >
-                <svg class="foot-social-icon" width="20" height="20">
+                <svg class="foot-soc-block__icon" width="20" height="20">
                   <use href="./images/sprite.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="foot-form-content">
-          <p class="foot-form-deck">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+
+        <div class="foot-form-block">
+          <p class="foot-form-block__deck">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
           <form class="foot-mail-form" name="foot-mail-form">
-            <label class="foot-mail-field">
-              <input
-                class="foot-mail-input"
-                type="email"
-                name="user-mail"
-                placeholder="E-mail"
-              />
-            </label>
-            <button class="foot-form-btn btn" type="submit">Підписатися</button>
+            <input
+              class="foot-mail-form__input"
+              type="email"
+              name="user-mail"
+              placeholder="E-mail"
+            />
+            <button class="foot-mail-form__btn btn" type="submit">
+              Підписатися
+            </button>
           </form>
         </div>
       </div>
