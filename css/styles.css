@@ -1000,7 +1000,7 @@ img {
 /* /foot form content */
 /* ====== /Footer ====== */ /* =============== Portfolio =============== */
 /* ====== Work section ====== */ /* = Project filter = */
-.work-list {
+.work__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1008,11 +1008,11 @@ img {
   margin-bottom: 50px;
 }
 
-.work-item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.work-filter-btn {
+.work__btn {
   display: inline-flex;
 
   padding-top: 6px;
@@ -1034,8 +1034,8 @@ img {
     box-shadow var(--duration) var(--timing-function);
 }
 
-.work-filter-btn:hover,
-.work-filter-btn:focus {
+.work__btn:hover,
+.work__btn:focus {
   color: var(--main-bg-cl);
   background-color: var(--accent-cl);
   box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
