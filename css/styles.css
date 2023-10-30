@@ -157,11 +157,11 @@ img {
   color: var(--accent-cl);
 }
 
-.active-link {
+.nav__link--active {
   color: var(--accent-cl);
 }
 
-.active-link::after {
+.nav__link--active::after {
   content: '';
 
   position: absolute;
