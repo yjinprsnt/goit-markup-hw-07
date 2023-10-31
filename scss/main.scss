@@ -1,6 +1,8 @@
 // ===== Utils =====
 @import './utils/vars';
-@import './utils/visually-hidden';
+
+// ===== Vendors =====
+@import './vendors/visually-hidden';
 
 // Bace styles
 @import './bace/common';
