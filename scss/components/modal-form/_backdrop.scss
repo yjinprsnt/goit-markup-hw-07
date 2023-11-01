@@ -11,15 +11,15 @@
   opacity: 1;
   transition: opacity var(--duration) var(--timing-function),
     visibility var(--duration) var(--timing-function);
-}
 
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.8);
+    & .modal {
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+  }
 }
 /* = /Backdrop = */

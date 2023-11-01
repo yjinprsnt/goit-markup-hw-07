@@ -20,10 +20,7 @@
   padding-left: 25px;
   border-radius: 4px;
 
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include fonts(500, 16px, 1.62, 0.03em);
 
   color: var(--secondary-txt-cl);
   background-color: var(--secondary-bg-cl);
@@ -31,20 +28,19 @@
   transition: color var(--duration) var(--timing-function),
     background-color var(--duration) var(--timing-function),
     box-shadow var(--duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--main-bg-cl);
+    background-color: var(--accent-cl);
+    box-shadow: var(--primary-box-shadow);
+  }
+
+  &--active {
+    color: var(--main-bg-cl);
+    background-color: var(--accent-cl);
+    box-shadow: var(--primary-box-shadow);
+  }
 }
 
-.work__btn:hover,
-.work__btn:focus {
-  color: var(--main-bg-cl);
-  background-color: var(--accent-cl);
-  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
-    0px 3px 1px 0px #0000001a;
-}
-
-.active-btn {
-  color: var(--main-bg-cl);
-  background-color: var(--accent-cl);
-  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
-    0px 3px 1px 0px #0000001a;
-}
 /* = /Project filter = */

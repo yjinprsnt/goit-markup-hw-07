@@ -25,12 +25,12 @@
 
   transition: color var(--duration) var(--timing-function),
     background-color var(--duration) var(--timing-function);
-}
 
-.team-soc-list__link:hover,
-.team-soc-list__link:focus {
-  color: var(--main-bg-cl);
-  background-color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    color: var(--main-bg-cl);
+    background-color: var(--accent-cl);
+  }
 }
 
 .team-soc-list__icon {
@@ -46,10 +46,8 @@
 .foot-soc-block__deck {
   margin-bottom: 20px;
 
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
   font-family: Roboto;
+  @include fonts(700, 14px, 1.14, null);
 
   color: var(--main-bg-cl);
 }
@@ -77,11 +75,11 @@
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: background-color var(--duration) var(--timing-function);
-}
 
-.foot-soc-block__link:hover,
-.foot-soc-block__link:focus {
-  background-color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-cl);
+  }
 }
 
 .foot-soc-block__icon {
