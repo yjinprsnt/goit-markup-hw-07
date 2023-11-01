@@ -1,45 +1,42 @@
 /* ====== About section ====== */
 .about {
   padding-top: 0;
-}
 
-.about__title {
-  margin-bottom: 50px;
+  &__title {
+    margin-bottom: 50px;
 
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
+    @include fonts(700, 36px, 1.16, 0.03em);
+    text-align: center;
 
-  color: var(--secondary-txt-cl);
-}
+    color: var(--secondary-txt-cl);
+  }
 
-.about__list {
-  display: flex;
-}
+  &__list {
+    display: flex;
+  }
 
-.about__item:not(:last-child) {
-  margin-right: 30px;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-content {
   position: relative;
-}
 
-.about-content__deck {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  &__deck {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 
-  font-weight: 700;
-  line-height: 1.14;
-  text-align: center;
-  padding-top: 27px;
-  padding-bottom: 27px;
+    @include fonts(700, null, 1.14, null);
+    text-align: center;
 
-  color: var(--main-bg-cl);
-  background-color: rgba(47, 48, 58, 0.8);
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    color: var(--main-bg-cl);
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 }
 /* ====== /About section ====== */

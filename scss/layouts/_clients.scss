@@ -2,10 +2,7 @@
 .clients__title {
   margin-bottom: 50px;
 
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  @include fonts(700, 36px, 1.16, 0.03em);
   text-align: center;
 
   color: var(--secondary-txt-cl);
@@ -22,10 +19,10 @@
   align-items: center;
   justify-content: center;
   margin-right: 30px;
-}
 
-.clients__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .clients__link {
@@ -42,12 +39,12 @@
 
   transition: color var(--duration) var(--timing-function),
     border-color var(--duration) var(--timing-function);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--accent-cl);
-  border-color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+    border-color: var(--accent-cl);
+  }
 }
 
 .clients__icon {

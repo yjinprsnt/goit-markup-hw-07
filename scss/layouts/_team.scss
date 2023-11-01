@@ -6,10 +6,7 @@
 .team__title {
   margin-bottom: 50px;
 
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  @include fonts(700, 36px, 1.16, 0.03em);
   text-align: center;
 
   color: var(--secondary-txt-cl);
@@ -30,33 +27,30 @@
   box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f;
   background-color: var(--main-bg-cl);
-}
 
-.team__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .team-card {
   padding-top: 30px;
   padding-bottom: 30px;
+
+  &__subtitle {
+    margin-bottom: 10px;
+
+    @include fonts(500, 16px, 1.18, 0.03em);
+
+    color: var(--secondary-txt-cl);
+  }
+
+  &__deck {
+    margin-top: 0;
+    margin-bottom: 16px;
+
+    @include fonts(null, 16px, 1.18, null);
+  }
 }
 
-.team-card__subtitle {
-  margin-bottom: 10px;
-
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-
-  color: var(--secondary-txt-cl);
-}
-
-.team-card__deck {
-  margin-top: 0;
-  margin-bottom: 16px;
-
-  font-size: 16px;
-  line-height: 1.18;
-}
 /* ====== /Team section ====== */

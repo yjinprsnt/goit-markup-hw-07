@@ -4,11 +4,11 @@
   padding-bottom: 60px;
 
   background-color: var(--dark-bg-cl);
-}
 
-.foot__container {
-  display: flex;
-  align-items: baseline;
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .foot-address-block:not(:last-child) {
@@ -30,26 +30,32 @@
   color: var(--main-bg-cl);
 
   transition: color var(--duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .foot-address__mail-link {
   color: rgba(255, 255, 255, 0.6);
 
   transition: color var(--duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .foot-address__tel-link {
   color: rgba(255, 255, 255, 0.6);
 
   transition: color var(--duration) var(--timing-function);
-}
 
-.foot-address__address-link:hover,
-.foot-address__address-link:focus,
-.foot-address__mail-link:hover,
-.foot-address__mail-link:focus,
-.foot-address__tel-link:hover,
-.foot-address__tel-link:focus {
-  color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 /* ====== /Footer ====== */

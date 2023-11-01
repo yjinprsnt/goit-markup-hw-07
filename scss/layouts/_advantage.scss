@@ -6,10 +6,10 @@
 .advantag__item {
   min-width: 270px;
   margin-right: 30px;
-}
 
-.advantag__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .advantag-wrap {
@@ -28,10 +28,7 @@
 .advantag__subtitle {
   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fonts(700, 14px, 1.14, 0.03em);
 
   color: var(--secondary-txt-cl);
 }

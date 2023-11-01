@@ -19,18 +19,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.hero__title {
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  &__title {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+    @include fonts(900, 44px, 1.36, 0.06em);
+  }
 }
 
 .hero__feedback-btn {
@@ -43,10 +40,7 @@
   padding-bottom: 10px;
   padding-left: 32px;
 
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include fonts(700, 16px, 1.87, 0.06em);
   text-align: center;
 
   outline-color: var(--accent-cl);
@@ -55,11 +49,10 @@
   box-shadow: var(--btn-box-shadow);
 
   transition: background-color var(--duration) var(--timing-function);
-}
 
-.hero__feedback-btn:hover,
-.hero__feedback-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
-
 /* ====== /Hero section ====== */
