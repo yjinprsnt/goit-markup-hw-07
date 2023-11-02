@@ -2,22 +2,16 @@
 .clients__title {
   margin-bottom: 50px;
 
-  @include fonts(700, 36px, 1.16, 0.03em);
   text-align: center;
-
   color: var(--secondary-txt-cl);
 }
 
 .clients__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 }
 
 .clients__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
   margin-right: 30px;
 
   &:last-child {
@@ -26,9 +20,7 @@
 }
 
 .clients__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   width: 170px;
   height: 92px;

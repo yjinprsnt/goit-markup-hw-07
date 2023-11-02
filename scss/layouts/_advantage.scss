@@ -13,9 +13,7 @@
 }
 
 .advantag-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
   margin-bottom: 30px;
 
   width: 270px;
