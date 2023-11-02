@@ -5,9 +5,7 @@
   &__title {
     margin-bottom: 50px;
 
-    @include fonts(700, 36px, 1.16, 0.03em);
     text-align: center;
-
     color: var(--secondary-txt-cl);
   }
 
