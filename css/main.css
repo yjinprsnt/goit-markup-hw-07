@@ -53,6 +53,13 @@ body {
   border: none;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
 h1,
 h2,
 h3,
@@ -877,10 +884,6 @@ img {
 }
 .about__title {
   margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-txt-cl);
 }
@@ -918,10 +921,6 @@ img {
 
 .team__title {
   margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-txt-cl);
 }
@@ -968,10 +967,6 @@ img {
 /* ====== Clients section ====== */
 .clients__title {
   margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-txt-cl);
 }
