@@ -15,3 +15,7 @@ body {
   cursor: pointer;
   border: none;
 }
+
+.title {
+  @include fonts(700, 36px, 1.16, 0.03em);
+}
