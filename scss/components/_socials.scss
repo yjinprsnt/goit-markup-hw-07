@@ -1,8 +1,6 @@
 // ===== Social list =====
 .team-soc-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 }
 
 .team-soc-list__item:not(:last-child) {
@@ -11,9 +9,7 @@
 }
 
 .team-soc-list__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   width: 44px;
   height: 44px;
@@ -53,9 +49,7 @@
 }
 
 .foot-soc-block__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 }
 
 .foot-soc-block__item:not(:last-child) {
@@ -63,9 +57,7 @@
 }
 
 .foot-soc-block__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   width: 44px;
   height: 44px;

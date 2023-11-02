@@ -1,8 +1,6 @@
 /* = Project filter = */
 .work__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   margin-bottom: 50px;
 }

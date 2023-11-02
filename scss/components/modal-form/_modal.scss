@@ -25,9 +25,8 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
+
   width: 30px;
   height: 30px;
 
@@ -166,9 +165,7 @@
 }
 
 .castom-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
   margin-right: 7px;
 
   width: 16px;
